@@ -7,29 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7EB357E2299608300C86E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB357D2299608300C86E9F /* AppDelegate.swift */; };
-		A7EB35832299608300C86E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35812299608300C86E9F /* Main.storyboard */; };
-		A7EB35852299608400C86E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35842299608400C86E9F /* Assets.xcassets */; };
-		A7EB35882299608400C86E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35862299608400C86E9F /* LaunchScreen.storyboard */; };
-		A7EB35B22299667C00C86E9F /* goalpost-app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35B02299667C00C86E9F /* goalpost-app.xcdatamodeld */; };
-		A7EB35BA22997E0A00C86E9F /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35B922997E0A00C86E9F /* GoalsVC.swift */; };
-		A7EB35BC2299A5BC00C86E9F /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35BB2299A5BC00C86E9F /* GoalCell.swift */; };
+		A7EB35CA229EA66E00C86E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35C9229EA66E00C86E9F /* AppDelegate.swift */; };
+		A7EB35CC229EA66E00C86E9F /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35CB229EA66E00C86E9F /* GoalsVC.swift */; };
+		A7EB35CF229EA66E00C86E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35CD229EA66E00C86E9F /* Main.storyboard */; };
+		A7EB35D2229EA66E00C86E9F /* goalpostApp1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35D0229EA66E00C86E9F /* goalpostApp1.xcdatamodeld */; };
+		A7EB35D4229EA67300C86E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35D3229EA67300C86E9F /* Assets.xcassets */; };
+		A7EB35D7229EA67300C86E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7EB35D5229EA67300C86E9F /* LaunchScreen.storyboard */; };
+		A7EB35E3229ED50000C86E9F /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35E2229ED50000C86E9F /* GoalCell.swift */; };
+		A7EB35E5229EDCA700C86E9F /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB35E4229EDCA700C86E9F /* GoalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7EB357A2299608300C86E9F /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7EB357D2299608300C86E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7EB35822299608300C86E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7EB35842299608400C86E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A7EB35872299608400C86E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A7EB35892299608400C86E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7EB35B12299667C00C86E9F /* goalpost-app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "goalpost-app.xcdatamodel"; sourceTree = "<group>"; };
-		A7EB35B922997E0A00C86E9F /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
-		A7EB35BB2299A5BC00C86E9F /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		A7EB35C6229EA66E00C86E9F /* goalpostApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goalpostApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EB35C9229EA66E00C86E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7EB35CB229EA66E00C86E9F /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
+		A7EB35CE229EA66E00C86E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7EB35D1229EA66E00C86E9F /* goalpostApp1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpostApp1.xcdatamodel; sourceTree = "<group>"; };
+		A7EB35D3229EA67300C86E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7EB35D6229EA67300C86E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7EB35D8229EA67300C86E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EB35E2229ED50000C86E9F /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+		A7EB35E4229EDCA700C86E9F /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7EB35772299608300C86E9F /* Frameworks */ = {
+		A7EB35C3229EA66E00C86E9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,63 +41,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7EB35712299608300C86E9F = {
+		A7EB35BD229EA66E00C86E9F = {
 			isa = PBXGroup;
 			children = (
-				A7EB357C2299608300C86E9F /* goalpost-app */,
-				A7EB357B2299608300C86E9F /* Products */,
+				A7EB35C8229EA66E00C86E9F /* goalpostApp1 */,
+				A7EB35C7229EA66E00C86E9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7EB357B2299608300C86E9F /* Products */ = {
+		A7EB35C7229EA66E00C86E9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7EB357A2299608300C86E9F /* goalpost-app.app */,
+				A7EB35C6229EA66E00C86E9F /* goalpostApp1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7EB357C2299608300C86E9F /* goalpost-app */ = {
+		A7EB35C8229EA66E00C86E9F /* goalpostApp1 */ = {
 			isa = PBXGroup;
 			children = (
-				A7EB35B6229966FD00C86E9F /* Extensions */,
-				A7EB35B5229966F500C86E9F /* Enums */,
-				A7EB35B4229966C100C86E9F /* Views */,
-				A7EB35B32299669C00C86E9F /* Controller */,
-				A7EB357D2299608300C86E9F /* AppDelegate.swift */,
-				A7EB35812299608300C86E9F /* Main.storyboard */,
-				A7EB35842299608400C86E9F /* Assets.xcassets */,
-				A7EB35862299608400C86E9F /* LaunchScreen.storyboard */,
-				A7EB35892299608400C86E9F /* Info.plist */,
-				A7EB35B02299667C00C86E9F /* goalpost-app.xcdatamodeld */,
+				A7EB35E1229EA71300C86E9F /* Extensions */,
+				A7EB35E0229EA6EC00C86E9F /* Enums */,
+				A7EB35DF229EA6D800C86E9F /* Views */,
+				A7EB35DE229EA6AE00C86E9F /* Controller */,
+				A7EB35C9229EA66E00C86E9F /* AppDelegate.swift */,
+				A7EB35CD229EA66E00C86E9F /* Main.storyboard */,
+				A7EB35D3229EA67300C86E9F /* Assets.xcassets */,
+				A7EB35D5229EA67300C86E9F /* LaunchScreen.storyboard */,
+				A7EB35D8229EA67300C86E9F /* Info.plist */,
+				A7EB35D0229EA66E00C86E9F /* goalpostApp1.xcdatamodeld */,
 			);
-			path = "goalpost-app";
+			path = goalpostApp1;
 			sourceTree = "<group>";
 		};
-		A7EB35B32299669C00C86E9F /* Controller */ = {
+		A7EB35DE229EA6AE00C86E9F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A7EB35B922997E0A00C86E9F /* GoalsVC.swift */,
+				A7EB35CB229EA66E00C86E9F /* GoalsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		A7EB35B4229966C100C86E9F /* Views */ = {
+		A7EB35DF229EA6D800C86E9F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A7EB35BB2299A5BC00C86E9F /* GoalCell.swift */,
+				A7EB35E2229ED50000C86E9F /* GoalCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A7EB35B5229966F500C86E9F /* Enums */ = {
+		A7EB35E0229EA6EC00C86E9F /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				A7EB35E4229EDCA700C86E9F /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
 		};
-		A7EB35B6229966FD00C86E9F /* Extensions */ = {
+		A7EB35E1229EA71300C86E9F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -105,39 +108,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7EB35792299608300C86E9F /* goalpost-app */ = {
+		A7EB35C5229EA66E00C86E9F /* goalpostApp1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7EB358C2299608400C86E9F /* Build configuration list for PBXNativeTarget "goalpost-app" */;
+			buildConfigurationList = A7EB35DB229EA67300C86E9F /* Build configuration list for PBXNativeTarget "goalpostApp1" */;
 			buildPhases = (
-				A7EB35762299608300C86E9F /* Sources */,
-				A7EB35772299608300C86E9F /* Frameworks */,
-				A7EB35782299608300C86E9F /* Resources */,
+				A7EB35C2229EA66E00C86E9F /* Sources */,
+				A7EB35C3229EA66E00C86E9F /* Frameworks */,
+				A7EB35C4229EA66E00C86E9F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "goalpost-app";
-			productName = "goalpost-app";
-			productReference = A7EB357A2299608300C86E9F /* goalpost-app.app */;
+			name = goalpostApp1;
+			productName = goalpostApp1;
+			productReference = A7EB35C6229EA66E00C86E9F /* goalpostApp1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7EB35722299608300C86E9F /* Project object */ = {
+		A7EB35BE229EA66E00C86E9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Islam Kasem";
 				TargetAttributes = {
-					A7EB35792299608300C86E9F = {
+					A7EB35C5229EA66E00C86E9F = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = A7EB35752299608300C86E9F /* Build configuration list for PBXProject "goalpost-app" */;
+			buildConfigurationList = A7EB35C1229EA66E00C86E9F /* Build configuration list for PBXProject "goalpostApp1" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,56 +148,57 @@
 				en,
 				Base,
 			);
-			mainGroup = A7EB35712299608300C86E9F;
-			productRefGroup = A7EB357B2299608300C86E9F /* Products */;
+			mainGroup = A7EB35BD229EA66E00C86E9F;
+			productRefGroup = A7EB35C7229EA66E00C86E9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7EB35792299608300C86E9F /* goalpost-app */,
+				A7EB35C5229EA66E00C86E9F /* goalpostApp1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7EB35782299608300C86E9F /* Resources */ = {
+		A7EB35C4229EA66E00C86E9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7EB35882299608400C86E9F /* LaunchScreen.storyboard in Resources */,
-				A7EB35852299608400C86E9F /* Assets.xcassets in Resources */,
-				A7EB35832299608300C86E9F /* Main.storyboard in Resources */,
+				A7EB35D7229EA67300C86E9F /* LaunchScreen.storyboard in Resources */,
+				A7EB35D4229EA67300C86E9F /* Assets.xcassets in Resources */,
+				A7EB35CF229EA66E00C86E9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7EB35762299608300C86E9F /* Sources */ = {
+		A7EB35C2229EA66E00C86E9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7EB35BC2299A5BC00C86E9F /* GoalCell.swift in Sources */,
-				A7EB35BA22997E0A00C86E9F /* GoalsVC.swift in Sources */,
-				A7EB35B22299667C00C86E9F /* goalpost-app.xcdatamodeld in Sources */,
-				A7EB357E2299608300C86E9F /* AppDelegate.swift in Sources */,
+				A7EB35E3229ED50000C86E9F /* GoalCell.swift in Sources */,
+				A7EB35E5229EDCA700C86E9F /* GoalType.swift in Sources */,
+				A7EB35D2229EA66E00C86E9F /* goalpostApp1.xcdatamodeld in Sources */,
+				A7EB35CC229EA66E00C86E9F /* GoalsVC.swift in Sources */,
+				A7EB35CA229EA66E00C86E9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7EB35812299608300C86E9F /* Main.storyboard */ = {
+		A7EB35CD229EA66E00C86E9F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7EB35822299608300C86E9F /* Base */,
+				A7EB35CE229EA66E00C86E9F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A7EB35862299608400C86E9F /* LaunchScreen.storyboard */ = {
+		A7EB35D5229EA67300C86E9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7EB35872299608400C86E9F /* Base */,
+				A7EB35D6229EA67300C86E9F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -202,7 +206,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A7EB358A2299608400C86E9F /* Debug */ = {
+		A7EB35D9229EA67300C86E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,7 +267,7 @@
 			};
 			name = Debug;
 		};
-		A7EB358B2299608400C86E9F /* Release */ = {
+		A7EB35DA229EA67300C86E9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,34 +322,34 @@
 			};
 			name = Release;
 		};
-		A7EB358D2299608400C86E9F /* Debug */ = {
+		A7EB35DC229EA67300C86E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				INFOPLIST_FILE = goalpostApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iskasem.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = iskasem.goalpostApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A7EB358E2299608400C86E9F /* Release */ = {
+		A7EB35DD229EA67300C86E9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				INFOPLIST_FILE = goalpostApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "iskasem.goalpost-app";
+				PRODUCT_BUNDLE_IDENTIFIER = iskasem.goalpostApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -355,20 +359,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7EB35752299608300C86E9F /* Build configuration list for PBXProject "goalpost-app" */ = {
+		A7EB35C1229EA66E00C86E9F /* Build configuration list for PBXProject "goalpostApp1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7EB358A2299608400C86E9F /* Debug */,
-				A7EB358B2299608400C86E9F /* Release */,
+				A7EB35D9229EA67300C86E9F /* Debug */,
+				A7EB35DA229EA67300C86E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7EB358C2299608400C86E9F /* Build configuration list for PBXNativeTarget "goalpost-app" */ = {
+		A7EB35DB229EA67300C86E9F /* Build configuration list for PBXNativeTarget "goalpostApp1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7EB358D2299608400C86E9F /* Debug */,
-				A7EB358E2299608400C86E9F /* Release */,
+				A7EB35DC229EA67300C86E9F /* Debug */,
+				A7EB35DD229EA67300C86E9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -376,17 +380,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A7EB35B02299667C00C86E9F /* goalpost-app.xcdatamodeld */ = {
+		A7EB35D0229EA66E00C86E9F /* goalpostApp1.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A7EB35B12299667C00C86E9F /* goalpost-app.xcdatamodel */,
+				A7EB35D1229EA66E00C86E9F /* goalpostApp1.xcdatamodel */,
 			);
-			currentVersion = A7EB35B12299667C00C86E9F /* goalpost-app.xcdatamodel */;
-			path = "goalpost-app.xcdatamodeld";
+			currentVersion = A7EB35D1229EA66E00C86E9F /* goalpostApp1.xcdatamodel */;
+			path = goalpostApp1.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A7EB35722299608300C86E9F /* Project object */;
+	rootObject = A7EB35BE229EA66E00C86E9F /* Project object */;
 }
