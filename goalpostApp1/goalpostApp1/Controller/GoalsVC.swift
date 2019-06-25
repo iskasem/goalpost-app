@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import CoreData
+
+let appDelegate = UIApplication.shared.delegate  as?  AppDelegate
 
 class GoalsVC: UIViewController {
     
@@ -14,7 +17,10 @@ class GoalsVC: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
-     
+        guard let createGoalVc = storyboard?.instantiateViewController(withIdentifier: "createGoalVC") else{
+            return
+        }
+        presentDetail(createGoalVc)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
