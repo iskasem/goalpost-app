@@ -72,6 +72,20 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgR-PU-0ip">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="DgL-Ar-kVj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="undoBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G4P-gC-DHB"/>
+                                </connections>
+                            </button>
                             <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6RW-5p-N6G">
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -187,7 +201,10 @@
                             <constraint firstItem="6RW-5p-N6G" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="M9J-iB-1Pp"/>
                             <constraint firstItem="6RW-5p-N6G" firstAttribute="top" secondItem="hkl-VO-3nW" secondAttribute="bottom" id="Zch-nQ-p5H"/>
                             <constraint firstItem="6RW-5p-N6G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dj9-9d-DSo"/>
+                            <constraint firstItem="SgR-PU-0ip" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fLC-Qt-ur4"/>
                             <constraint firstItem="hkl-VO-3nW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="feb-nn-vyz"/>
+                            <constraint firstItem="SgR-PU-0ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j69-Dp-zhJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SgR-PU-0ip" secondAttribute="bottom" id="m7T-0Q-atW"/>
                             <constraint firstItem="SlI-Q3-Mb4" firstAttribute="top" secondItem="hkl-VO-3nW" secondAttribute="bottom" constant="75" id="vir-1f-sm2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

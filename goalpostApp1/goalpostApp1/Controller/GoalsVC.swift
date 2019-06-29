@@ -11,6 +11,7 @@ import CoreData
 
 let appDelegate = UIApplication.shared.delegate  as?  AppDelegate
 
+
 class GoalsVC: UIViewController {
     
  
@@ -18,6 +19,12 @@ class GoalsVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var    goals : [Goal] = []
+    
+   
+    @IBAction func undoBtnWasPressed(_ sender:
+        Any) {
+    
+    }
     
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
         guard let createGoalVc = storyboard?.instantiateViewController(withIdentifier: "createGoalVC") else{
@@ -30,7 +37,7 @@ class GoalsVC: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.isHidden = false
-        
+       
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -43,10 +50,12 @@ class GoalsVC: UIViewController {
             if complete {
                 if goals.count >= 1 {
                     tableView.isHidden = false
+        
                 }else{
                     tableView.isHidden = true
                 }
             }
+         
         }
     }
 
@@ -66,9 +75,13 @@ extension GoalsVC :UITableViewDelegate ,UITableViewDataSource{
     func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         let deleteAction = UITableViewRowAction(style: .destructive, title: "DELETE") { (rowAction, indexPath)
             in
-            self.removeGoal(atIndexPAth: indexPath)
-            self.fetchData()
-            tableView.deleteRows(at: [indexPath], with: .automatic)
+            
+             self.fetchData()
+                  self.removeGoal(atIndexPAth: indexPath)
+                tableView.deleteRows(at: [indexPath], with: .automatic)
+                self.fetchData()
+            
+           
         }
         
         let addAction = UITableViewRowAction(style: .normal, title: "ADD 1") { (rowAction, indexPath) in
